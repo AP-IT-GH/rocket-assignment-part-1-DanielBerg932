@@ -44,11 +44,11 @@ public class Move : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(Vector3.left * 5 * Time.deltaTime);
+            transform.Translate(Vector3.right * 5 * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(Vector3.right *5 * Time.deltaTime);
+            transform.Translate(Vector3.left *5 * Time.deltaTime);
         }
     }
 }
